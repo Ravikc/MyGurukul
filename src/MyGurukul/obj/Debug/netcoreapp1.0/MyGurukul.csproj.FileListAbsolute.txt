@@ -1,0 +1,10 @@
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\bin\Debug\netcoreapp1.0\MyGurukul.deps.json
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\bin\Debug\netcoreapp1.0\MyGurukul.runtimeconfig.json
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\bin\Debug\netcoreapp1.0\MyGurukul.runtimeconfig.dev.json
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\bin\Debug\netcoreapp1.0\MyGurukul.dll
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\bin\Debug\netcoreapp1.0\MyGurukul.pdb
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\obj\Debug\netcoreapp1.0\MyGurukul.csprojResolveAssemblyReference.cache
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\obj\Debug\netcoreapp1.0\UserSecretsAssemblyInfo.cs
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\obj\Debug\netcoreapp1.0\MyGurukul.AssemblyInfo.cs
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\obj\Debug\netcoreapp1.0\MyGurukul.dll
+C:\Users\ravik\Documents\Visual Studio 2015\Projects\MyGurukul\src\MyGurukul\obj\Debug\netcoreapp1.0\MyGurukul.pdb

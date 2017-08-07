@@ -1,0 +1,46 @@
+@model IEnumerable<MyGurukul.Models.ViewModels.ManageUserViewModels.ApplicationUserListViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<a class="btn btn-default col-sm-4" asp-action="Index" asp-route-filterParameter="Super User" role="button">Super User</a>
+<a class="btn btn-default col-sm-4" asp-route-filterParameter="Faculty" role="button">Faculty</a>
+<a class="btn btn-default col-sm-4" asp-route-filterParameter="Student" role="button">Student</a>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Roles)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserEmail)
+                </td>
+                <td>
+                    @foreach (var role in item.Roles.ToList())
+                    {
+                        @role
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditAndViewUserDetails", new { UserID = item.UserID, whatToDo = "Edit" }) |
+                    @Html.ActionLink("Details", "EditAndViewUserDetails", new { UserID = item.UserID, whatToDo = "View" }) |
+                    @Html.ActionLink("Delete", "DeleteUser", new { userID = item.UserID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
